@@ -6,50 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <title>Gizem GÖK | Software Developer</title>
 </head>
 
 <body>
 
     <section class="who-am-i">
-        <button class="language-button">TR</button>
-        
-        <p class="title">Hacer <b>Gizem</b> GÖK</p>
-        <div class="text-container">
-            <p class="subtitle">Hi, my name is Gizem. <br> I am interested in <b>front-end technologies</b> almost a year. <br> Also I like
-                photography, books and movies. Please contact me for more information.</p>
-        </div>      
-        
+        <div class="d-flex flex-row justify-content-between mb-lg-3 mb-5 px-3 pt-2">
+            <div class="social-media">
+                <a href="https://github.com/hacergizem"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hacergizem/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:gizemgk654@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+            <button class="language-button">TR</button>
+        </div>
 
-        <div class="techs">
-            <p class="section-title">Technologies I Use</p>
-            <div>
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>            
-            <i class="fab fa-js"></i>
-            <i class="fab fa-sass"></i>
-            <i class="fab fa-ubuntu"></i>
-            <i class="fab fa-git-alt"></i>
+
+        <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+            <p class="title">Hacer Gizem GÖK</p>
+            <div class="col-lg-6 col-12 text-center">
+                <p class="subtitle text-container">Hi, my name is <b>Gizem.</b><br>
+                    I'm interested in <b>front-end technologies</b> almost two year.<br>
+                    I'm working on <b> web and mobile development.</b><br>
+                    Also I like photography, books and movies. <br>
+                    Please contact me for more information.</p>
             </div>
         </div>
 
-        <div class="social-media">
-            <a href="mailto:gizemgk654@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a href="https://www.twitter.com/hgizemg"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/hacergizemgok/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/hacergizem"><i class="fab fa-github"></i></a>
+
+        <div class="techs my-5">
+            <p class="section-title px-4 py-2">Technologies I Use</p>
+            <div class="mb-5 p-lg-0 p-5 d-flex flex-wrap justify-content-center">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-vuejs"></i>
+                <i class="fab fa-git-alt"></i>
+                <i class="fab fa-linux"></i>
+            </div>
         </div>
 
+        <div class="projects d-flex flex-column justify-content-center align-items-center">
+            <p class="section-title px-4 py-2 mb-5">Portfolio</p>
+            <div class="col-lg-8 col-12">
+                <div class="mb-5 d-flex flex-lg-row flex-column align-items-center justify-content-center">
+                    <a href="/" class="col-lg-6 col-12 img-container"><img class=" img-container"
+                            src="./img/polling.png"></a>
+                    <ul class="col-lg-4 col-12 text-lg-left text-center pt-lg-0 pt-3">
+                        <li>React</li>
+                        <li>Redux Toolkit</li>
+                        <li>Rest API Integrations</li>
+                        <li>QR System</li>
+                        <li>Admin Panel</li>
+                    </ul>
+                </div>
+                <div class="mb-5 d-flex flex-lg-row-reverse flex-column align-items-center justify-content-center">
+                    <a href="http://basvuru.kapsulkonya.com/" class="col-lg-6 col-12 img-container"><img
+                            class=" img-container" src="./img/application.png"></a>
+                    <ul class="col-lg-4 col-12 text-lg-right text-center pt-lg-0 pt-3">
+                        <li>React</li>
+                        <li>Redux Toolkit</li>
+                        <li>Rest API Integrations</li>
+                        <li>Admin Panel</li>
+                    </ul>
+                </div>
+                <div class="mb-5 d-flex flex-lg-row flex-column align-items-center justify-content-center">
+                    <a href="https://hacergizem.github.io/omnisuite" class="col-lg-6 col-12 img-container"><img
+                            class=" img-container" src="./img/omni.png"></a>
+                    <ul class="col-lg-4 col-12 text-lg-left text-center pt-lg-0 pt-3">
+                        <li>Bootstrap</li>
+                        <li>Bootstrap Datatable</li>
+                        <li>jQuery</li>
+                    </ul>
+                </div>
+                <div class="mb-5 d-flex flex-lg-row-reverse flex-column align-items-center justify-content-center">
+                    <a href="https://iskambil.com.tr/" class="col-lg-6 col-12 img-container"><img class=" img-container"
+                            src="./img/iskambil.png"></a>
+                    <ul class="col-lg-4 col-12 text-lg-right text-center pt-lg-0 pt-3">
+                        <li>Bootstrap</li>
+                        <li>Vanilla Js</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
     </section>
 
-    <section class="motto">       
-        <p class="motivation">“Societies who wants to live in comfort without working, getting tired and producing are bound to lose firstly their dignity then their freedom then their independence and future.”
+    <section>
+        <div class="motivation d-flex flex-column justify-content-center align-items-center text-center p-lg-0 p-5">
+            “Societies who
+            wants to
+            live in comfort
+            without working,
+            getting tired and producing are
+            bound to lose firstly their dignity then their freedom then their independence and future.”
             <span class="motivation-subtitle">Mustafa Kemal ATATÜRK</span>
-        </p>
+        </div>
     </section>
+
 </body>
 
-<script src="script.js"></script>
+<script src="./assets/js/main.js"></script>
 
 </html>
