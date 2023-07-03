@@ -2,7 +2,7 @@
 This is my personal page. 💁 You can find information about me.
 
 # Please visit!
-https://hacergizem.github.io/
+https://hacergizem.github.io/portfolio
 
 # Pre-requisites:
 - Basic Knowledge of HTML
